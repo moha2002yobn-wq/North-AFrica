@@ -40,8 +40,8 @@
 
   /* Gradient Definitions */
   --grad-hero: linear-gradient(135deg, #3A3C3D 0%, #2D2E2F 50%, #4D5051 100%);
-  --grad-primary: linear-gradient(135deg, #5C867E 0%, #476A63 100%);
-  --grad-secondary: linear-gradient(135deg, #7E8F7C 0%, #637361 100%);
+  --grad-primary: linear-gradient(135deg, #5c866c 0%, #476a52 100%);
+  --grad-secondary: linear-gradient(135deg, #7E8F7C 25%, #637361 100%);
   --grad-accent: linear-gradient(135deg, #5C867E 0%, #7E8F7C 100%);
   --grad-gold: linear-gradient(135deg, #C1A161 0%, #A88849 100%);
   --grad-card: linear-gradient(180deg, rgba(224, 232, 221, 0.3) 0%, rgba(253, 254, 255, 1) 100%);

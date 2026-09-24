@@ -5,19 +5,19 @@
 export const COMPANY_CONFIG = {
   name: "شمال أفريقيا للتأمين",
   nameEn: "North Africa Insurance",
-  slogan: "تأمينك برؤية حديثة --- معكم لغد أكثر أماناً",
+  slogan: "تأمينك برؤية حديثة",
   description: "تقدم شركة شمال أفريقيا للتأمين حلول وتغطيات تأمينية شاملة ومبتكرة للأفراد والشركات في ليبيا، لضمان مستقبل أكثر أماناً واستقراراً.",
 
   // Contact Info
-  phone: "+218 21 3344556",
-  phoneRaw: "+218213344556",
-  whatsapp: "218910000000", // International format without leading '+' for wa.me link
-  whatsappFormatted: "+218 91 0000000",
+  phone: "+218 91 8755758",
+  phoneRaw: "+218918755758",
+  whatsapp: "218917703131", // International format without leading '+' for wa.me link
+  whatsappFormatted: "+218 91 7703131",
   address: "طرابلس، ليبيا",
-  workingHours: "الأحد - الخميس: 8:00 صباحاً - 4:00 مساءً",
+  workingHours: "السبت - الخميس: 8:00 صباحاً - 6:00 مساءً",
 
   // URLs & Domains
-  mapsUrl: "https://maps.google.com/?q=Tripoli+Libya",
+  mapsUrl: "https://maps.app.goo.gl/DfbWTwBGLNsGx8Cv8",
   domain: "https://northafricainsurance.ly",
   ogImage: "/assets/Hero-image.jpg"
 };

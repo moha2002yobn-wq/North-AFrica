@@ -77,11 +77,24 @@ export default function Navbar() {
       <div className={`mobile-menu-overlay ${mobileOpen ? 'open' : ''}`} onClick={closeMenu}>
         <div className="mobile-menu-content" onClick={(e) => e.stopPropagation()}>
           <div className="mobile-menu-header">
-            <div className="brand-text">
-              <span className="brand-title">{COMPANY_CONFIG.name}</span>
+            <div className="mobile-brand">
+              <div className="brand-icon">
+                <img 
+                  src={mainIcon} 
+                  alt={COMPANY_CONFIG.name} 
+                  width="36" 
+                  height="36" 
+                  loading="eager" 
+                  decoding="async" 
+                />
+              </div>
+              <div className="brand-text">
+                <span className="brand-title">{COMPANY_CONFIG.name}</span>
+                <span className="brand-subtitle">{COMPANY_CONFIG.nameEn}</span>
+              </div>
             </div>
             <button className="mobile-close-btn" onClick={closeMenu} aria-label="إغلاق القائمة">
-              <X size={24} />
+              <X size={22} />
             </button>
           </div>
 
@@ -89,12 +102,11 @@ export default function Navbar() {
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a href={link.href} className="mobile-nav-link" onClick={closeMenu}>
-                  {link.label}
+                  <span>{link.label}</span>
                 </a>
               </li>
             ))}
           </ul>
-
         </div>
       </div>
     </header>
