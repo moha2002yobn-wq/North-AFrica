@@ -1,0 +1,85 @@
+/* North Africa Insurance - CSS Variables & Design System */
+
+/* North Africa Insurance - Custom Color Palette Design System */
+
+:root {
+  /* User Defined Brand Color Palette */
+  --primary: #5C867E;
+  --primary-dark: #476A63;
+  --primary-light: #79A299;
+  --primary-subtle: rgba(92, 134, 126, 0.12);
+
+  --secondary: #7E8F7C;
+  --secondary-dark: #637361;
+  --secondary-light: #9BB099;
+  --secondary-subtle: rgba(126, 143, 124, 0.15);
+
+  --accent-gold: #C1A161;
+  --accent-gold-dark: #A88849;
+  --accent-gold-light: #DFC896;
+  --accent-gold-subtle: rgba(193, 161, 97, 0.15);
+
+  --dark: #3A3C3D;
+  --dark-surface: #2D2E2F;
+  --dark-light: #4D5051;
+
+  --light-green: #E0E8DD;
+  --light-green-subtle: #EEF3EC;
+
+  --bg-body: #FDFEFF;
+  --bg-dark: #FDFEFF;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #E0E8DD;
+  --bg-surface: #E0E8DD;
+  --bg-input: #FFFFFF;
+
+  /* Legacy Accent Variable Aliases for seamless component compatibility */
+  --accent-cyan: #5C867E;
+  --accent-blue: #5C867E;
+  --accent-teal: #7E8F7C;
+
+  /* Gradient Definitions */
+  --grad-hero: linear-gradient(135deg, #3A3C3D 0%, #2D2E2F 50%, #4D5051 100%);
+  --grad-primary: linear-gradient(135deg, #5C867E 0%, #476A63 100%);
+  --grad-secondary: linear-gradient(135deg, #7E8F7C 0%, #637361 100%);
+  --grad-accent: linear-gradient(135deg, #5C867E 0%, #7E8F7C 100%);
+  --grad-gold: linear-gradient(135deg, #C1A161 0%, #A88849 100%);
+  --grad-card: linear-gradient(180deg, rgba(224, 232, 221, 0.3) 0%, rgba(253, 254, 255, 1) 100%);
+  --grad-glow: radial-gradient(circle at 50% 0%, rgba(92, 134, 126, 0.18), transparent 70%);
+
+  /* Text Colors */
+  --text-primary: #3A3C3D;
+  --text-secondary: #57595A;
+  --text-muted: #747778;
+  --text-inverse: #FDFEFF;
+  --text-on-primary: #FFFFFF;
+
+  /* Borders & Shadows */
+  --border-subtle: rgba(58, 60, 61, 0.12);
+  --border-active: #5C867E;
+  --border-gold: rgba(193, 161, 97, 0.4);
+  --shadow-sm: 0 2px 8px rgba(58, 60, 61, 0.06);
+  --shadow-md: 0 8px 24px rgba(58, 60, 61, 0.09);
+  --shadow-lg: 0 16px 36px rgba(58, 60, 61, 0.12);
+  --shadow-glow: 0 0 20px rgba(92, 134, 126, 0.25);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(253, 254, 255, 0.9);
+  --glass-border: rgba(92, 134, 126, 0.2);
+  --glass-backdrop: blur(16px);
+
+  /* Typography */
+  --font-arabic: 'Tajawal', 'Cairo', system-ui, -apple-system, sans-serif;
+
+  /* Layout Spacing */
+  --container-max: 1240px;
+  --header-height: 80px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 30px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}

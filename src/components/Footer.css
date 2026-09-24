@@ -1,0 +1,153 @@
+.footer-section {
+  background: var(--grad-primary);
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 4.5rem;
+  padding-bottom: 2rem;
+  color: #E0E8DD;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+  gap: 2.5rem;
+  padding-bottom: 3.5rem;
+  border-bottom: 1px solid rgba(224, 232, 221, 0.15);
+}
+
+@media (max-width: 992px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.footer-brand-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: var(--grad-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.footer-brand-icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30%;
+}
+
+.footer-brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #FDFEFF;
+}
+
+.f-subtitle {
+  font-size: 0.65rem;
+  color: var(--accent-gold-light);
+}
+
+.footer-slogan-text {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+  margin-bottom: 0.75rem;
+}
+
+.footer-desc {
+  font-size: 0.9rem;
+  color: #E0E8DD;
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
+.footer-heading {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #FDFEFF;
+  margin-bottom: 1.25rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.footer-heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  height: 2px;
+  background: var(--accent-gold);
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer-links a {
+  font-size: 0.92rem;
+  color: #E0E8DD;
+  opacity: 0.85;
+  transition: color var(--transition-fast), padding-right var(--transition-fast);
+}
+
+.footer-links a:hover {
+  color: var(--accent-gold-light);
+  opacity: 1;
+  padding-right: 0.35rem;
+}
+
+.footer-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 0.92rem;
+  color: #E0E8DD;
+  opacity: 0.85;
+  margin-bottom: 0.85rem;
+}
+
+.f-icon {
+  color: var(--accent-gold);
+  flex-shrink: 0;
+}
+
+.footer-bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.75rem;
+  font-size: 0.85rem;
+  color: #E0E8DD;
+  opacity: 0.75;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-seo-tag {
+  color: var(--accent-gold-light);
+  font-weight: 600;
+}

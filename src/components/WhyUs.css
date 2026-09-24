@@ -1,0 +1,73 @@
+.whyus-section {
+  background: linear-gradient(180deg, var(--bg-body) 0%, var(--light-green) 100%);
+  position: relative;
+}
+
+.whyus-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.75rem;
+}
+
+@media (max-width: 1200px) {
+  .whyus-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .whyus-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.whyus-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 2.25rem 1.75rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all var(--transition-smooth);
+}
+
+.whyus-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-gold);
+  box-shadow: 0 10px 30px rgba(193, 161, 97, 0.2);
+}
+
+.whyus-icon-box {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--accent-gold-subtle);
+  border: 1px solid var(--border-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-gold);
+  margin-bottom: 1.5rem;
+  transition: transform var(--transition-fast);
+}
+
+.whyus-card:hover .whyus-icon-box {
+  transform: scale(1.1) rotate(5deg);
+  background: var(--grad-gold);
+  color: #ffffff;
+}
+
+.whyus-card-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 0.85rem;
+}
+
+.whyus-card-desc {
+  font-size: 0.98rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
