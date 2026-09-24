@@ -1,6 +1,7 @@
 import React from 'react';
 import { Shield, MapPin, Phone, MessageSquare } from 'lucide-react';
 import { COMPANY_CONFIG } from '../config/company';
+import mainIcon from '../assets/main-icon.jpg';
 import './Footer.css';
 
 export default function Footer() {
@@ -14,8 +15,14 @@ export default function Footer() {
           <div className="footer-col brand-col">
             <a href="#home" className="footer-brand">
               <div className="footer-brand-icon">
-                <img src="assets/main-icon.jpg" alt="North Africa Insurance" />
-
+                <img 
+                  src={mainIcon} 
+                  alt={COMPANY_CONFIG.name} 
+                  width="40" 
+                  height="40" 
+                  loading="lazy" 
+                  decoding="async" 
+                />
               </div>
               <div className="footer-brand-text">
                 <span className="f-title">{COMPANY_CONFIG.name}</span>

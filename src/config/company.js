@@ -19,5 +19,5 @@ export const COMPANY_CONFIG = {
   // URLs & Domains
   mapsUrl: "https://maps.google.com/?q=Tripoli+Libya",
   domain: "https://northafricainsurance.ly",
-  ogImage: "/assets/og-image.jpg"
+  ogImage: "/assets/Hero-image.jpg"
 };

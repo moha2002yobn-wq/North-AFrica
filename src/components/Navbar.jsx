@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Shield, Menu, X, ArrowLeft } from 'lucide-react';
 import { COMPANY_CONFIG } from '../config/company';
+import mainIcon from '../assets/main-icon.jpg';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -31,7 +32,14 @@ export default function Navbar() {
         {/* Brand Logo & Title */}
         <a href="#home" className="navbar-brand" aria-label={COMPANY_CONFIG.name}>
           <div className="brand-icon">
-            <img src="assets/main-icon.jpg" alt="North Africa Insurance" />
+            <img 
+              src={mainIcon} 
+              alt={COMPANY_CONFIG.name} 
+              width="44" 
+              height="44" 
+              loading="eager" 
+              decoding="async" 
+            />
           </div>
           <div className="brand-text">
             <span className="brand-title">{COMPANY_CONFIG.name}</span>

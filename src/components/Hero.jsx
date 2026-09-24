@@ -1,6 +1,7 @@
 import React from 'react';
 import { ShieldCheck, ArrowLeft, ChevronDown, CheckCircle2 } from 'lucide-react';
 import { COMPANY_CONFIG } from '../config/company';
+import heroImg from '../assets/Hero-image.jpg';
 import './Hero.css';
 
 export default function Hero() {
@@ -62,10 +63,13 @@ export default function Hero() {
           <div className="hero-card-stack">
             <div className="hero-image-wrapper">
               <img
-                src="/assets/Hero-image.jpg"
+                src={heroImg}
                 alt="شمال أفريقيا للتأمين - خدمات تأمينية حديثة"
                 className="hero-main-img"
                 loading="eager"
+                decoding="async"
+                width="600"
+                height="400"
               />
               <div className="hero-image-overlay" />
             </div>
