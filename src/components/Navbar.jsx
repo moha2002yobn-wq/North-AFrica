@@ -95,12 +95,6 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* <div className="mobile-menu-footer">
-            <a href="#insurance-request" className="btn btn-primary w-full" onClick={closeMenu}>
-              <span>تقديم طلب تأمين</span>
-              <ArrowLeft size={18} />
-            </a>
-          </div> */}
         </div>
       </div>
     </header>

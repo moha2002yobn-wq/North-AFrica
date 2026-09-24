@@ -52,7 +52,6 @@ export default function Footer() {
           <div className="footer-col">
             <h4 className="footer-heading">خدماتنا والتواصل</h4>
             <ul className="footer-links">
-              <li><a href="#insurance-request">طلب التأمين الذكي</a></li>
               <li><a href="#location">موقعنا على الخريطة</a></li>
               <li><a href="#contact">تواصل معنا</a></li>
             </ul>

@@ -25,17 +25,7 @@ const ICON_MAP = {
   HardHat
 };
 
-export default function Services({ onSelectService }) {
-  const handleServiceClick = (serviceId) => {
-    if (onSelectService) {
-      onSelectService(serviceId);
-    }
-    const formElement = document.getElementById('insurance-request');
-    if (formElement) {
-      formElement.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
+export default function Services() {
   return (
     <section id="services" className="services-section section-padding">
       <div className="container">
