@@ -21,6 +21,7 @@ export default function Navbar() {
     { href: '#about', label: 'من نحن' },
     { href: '#services', label: 'خدمات التأمين' },
     { href: '#why-us', label: 'لماذا نحن؟' },
+    { href: '#nearest-agent', label: 'أقرب وكيل' },
     { href: '#contact', label: 'تواصل معنا' },
   ];
 
@@ -32,13 +33,13 @@ export default function Navbar() {
         {/* Brand Logo & Title */}
         <a href="#home" className="navbar-brand" aria-label={COMPANY_CONFIG.name}>
           <div className="brand-icon">
-            <img 
-              src={mainIcon} 
-              alt={COMPANY_CONFIG.name} 
-              width="44" 
-              height="44" 
-              loading="eager" 
-              decoding="async" 
+            <img
+              src={mainIcon}
+              alt={COMPANY_CONFIG.name}
+              width="44"
+              height="44"
+              loading="eager"
+              decoding="async"
             />
           </div>
           <div className="brand-text">
@@ -79,13 +80,13 @@ export default function Navbar() {
           <div className="mobile-menu-header">
             <div className="mobile-brand">
               <div className="brand-icon">
-                <img 
-                  src={mainIcon} 
-                  alt={COMPANY_CONFIG.name} 
-                  width="36" 
-                  height="36" 
-                  loading="eager" 
-                  decoding="async" 
+                <img
+                  src={mainIcon}
+                  alt={COMPANY_CONFIG.name}
+                  width="36"
+                  height="36"
+                  loading="eager"
+                  decoding="async"
                 />
               </div>
               <div className="brand-text">

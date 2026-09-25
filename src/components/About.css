@@ -73,7 +73,7 @@
   display: flex;
   align-items: flex-start;
   gap: 0.85rem;
-  background: var(--light-green-subtle);
+  background: linear-gradient(160deg, var(--light-green) 0%, #FFFFFF 100%);
   padding: 1rem;
   border-radius: var(--radius-md);
   border: 1px solid var(--border-subtle);

@@ -54,7 +54,9 @@ export default function Location() {
             <div className="map-frame-wrapper">
               <div className="map-placeholder-bg">
                 <div className="map-pin-pulse">
-                  <MapPin size={36} className="pulse-pin" />
+                  <a href={COMPANY_CONFIG.ma}>
+                    <MapPin size={36} className="pulse-pin" />
+                  </a>
                 </div>
                 <div className="map-info-tooltip">
                   <strong>{COMPANY_CONFIG.name}</strong>
